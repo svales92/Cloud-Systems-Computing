@@ -1,0 +1,124 @@
+.background_img{
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  border-color:black;
+}
+.background_img img{
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  border-color:black;
+}
+
+
+p{
+  color:black;
+  text-align:center;
+  position:relative;
+  font-family:cursive;
+}
+h1{
+  color:peachpuff;
+  text-align:center;
+  position:relative;
+  font-family:cursive;
+  font-size:40px;
+}
+h2{
+  color:peachpuff;
+  text-align:center;
+  position:relative;
+  font-family:cursive;
+}
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  color:black;
+  text-align:center;
+  position:relative;
+  font-family:cursive;
+}
+li:hover{
+  color:peachpuff;
+
+}
+p:hover{
+  color:peachpuff;
+}
+table{
+  color:black;
+  text-align:center;
+  position:center;
+  font-family:cursive;
+  float:left;
+ 
+ 
+}
+tr{
+  color:black;
+  text-align:center;
+  position:relative;
+  font-family:cursive;
+  
+}
+th{
+  color:black;
+  font-weight:bold;
+  text-align:center;
+  position:relative;
+  font-family:cursive;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 15px;
+  background-color: peachpuff;
+  height:50px;
+}
+
+td{
+  color:black;
+  text-align:right;
+  position:flex;
+  font-family:cursive;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background:white;
+
+}
+
+h3{
+  color:peachpuff;
+  text-align:right;
+  position:relative;
+  font-family:cursive;
+  text-align: left;
+}
+picture{
+  position:relative;
+  float:right;
+}
+form{
+  color:black;
+  text-align:center;
+  position:relative;
+  font-family:cursive;
+}
+input[type=submit]{
+  background-color: peachpuff;
+  border: none;
+  color: whitesmoke;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
