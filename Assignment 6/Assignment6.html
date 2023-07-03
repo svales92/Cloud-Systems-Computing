@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arrays</title>
+</head>
+<body>
+
+  <h1> ASSIGNMENT 6 </h1>
+  
+
+  <h2>Just an Addition Calculator</h2>
+  <p id="Calculate"></p>
+  <input type="number" id="a" value="">
+  <input type="number" id="b" value="">
+  <br>
+  <button onclick="addNumbers()">Click</button>
+
+
+  <h2>Vehicle Inventory</h2>
+  <p id="Inventory"></p>
+  
+
+  <script> 
+    const Manufacturer=["NISSAN","MAZDA","HONDA","TOYOTA"];
+    const Cars= ["240SX","Miata","Civic","Supra"];
+   const Year=[1995, 1994, 1999, 1998];
+
+    let text="";
+    
+    for(let i = 0; i < Cars.length; i++)
+      {
+        text+= Manufacturer[i]+ ":   "+  Cars[i]+ "  "+ Year[i]+ "<br>";
+        console.log(text)
+        }
+        document.getElementById("Inventory").innerHTML=text;
+            </script>
+
+<script>
+  function addNumbers() {
+    var a = parseInt(document.getElementById('a').value);
+    var b = parseInt(document.getElementById('b').value);
+    var result = a + b;
+    document.getElementById('Calculate').innerHTML = "Result: " + result;
+  }
+</script>
+
+
+  
+</body>
+</html>
