@@ -7,7 +7,7 @@
       },
 
   {
-    "product name": "Playstation 4",
+    "product_name": "Playstation 4",
       "Id": 2,
       "price": 299.99,
       "Description": "Playstation 4"
@@ -15,19 +15,19 @@
 
 
  {
-    "product name": "Playstation 5",
+    "product_name": "Playstation 5",
       "Id": 3,
       "price": 499.99,
       "Description": "Playstation 5 "
         },
         {
-          "product name": "Nintendo Switch",
+          "product_name": "Nintendo Switch",
             "Id": 4,
             "price": 299.99,
             "Description": "Nintendo Switch "
               },
               {
-                "product name": "VR",
+                "product_name": "VR",
                   "Id": 5,
                   "price": 399.99,
                   "Description": "Quest VR"
