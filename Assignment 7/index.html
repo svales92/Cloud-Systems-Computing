@@ -6,9 +6,69 @@
   <title>Document</title>
 </head>
 <body>
+   <table id = Totals> </table>
+
+
+   
+<script>
+
+fetch ('https://raw.githubusercontent.com/svales92/Cloud-Systems-Computing/Devolop-/Assignment%207/object.json')
+.then(response => response.json())
+.then(data => processData(data));
+
+function processData(data){
+  var obj = data;
+
+  quantitys = [2, 3, 4, 5, 6]
+
+  text = "<tr><th>Product Name</th><th>Description</th><th>Price</th></tr>"
+
+  for (let i = 0; i <obj.length; i++)
+  {
+    text = text + "<tr>"
+
+      if (obj[i].price > 0)
+      {
+        price = obj[i].price
+      }
+      else {
+        price = 0
+      }
+      if (quantitys[i]>0){
+        quantity= quantitys[i]
+      
+      }
+      else{
+        quantity=0
+      }
+
+      total = price * quantity
+
+      text = text + "<td>"+ obj[i].product_name + "</td>"
+
+      text = text + "<td>"+ price + "</td>"
+
+      text = text + "<td>"+ quantity + "</td>"
+
+      text = text + "<td>"+ obj[i].description  + "</td>"
+      
+      text = text + "</tr>"
+
+      console.log(text)
+  }
+
+  document.getElementById(totals).innerHTML=text 
+
+
+
+}
+ 
+
   
 
-<script>
+</script
+ 
+
 
 
 
