@@ -1,0 +1,39 @@
+[{
+  "id": 1,
+  "image":"console-images/xbox.jpeg",
+  "name": "\"XBOX Series X\"",
+  "Price": "449.99",
+  "Inventory": 999
+},
+
+{
+  "id": 2,
+  "image":"console-images/playstation.jpeg",
+  "name": "\"PlayStation 5\"",
+  "Price": "549.99",
+  "Inventory": 999
+},
+
+{
+  "id": 3,
+  "image":"console-images/switch.jpeg",
+  "name": "\"Nintendo Switch\"",
+  "Price": "299.99",
+  "Inventory": 999
+},
+{
+  "id": 4,
+  "image":"console-images/steam.jpeg",
+  "name": "\"Steam Deck\"",
+  "Price": "399.99",
+  "Inventory": 999
+},
+{
+  "id": 5,
+  "image":"console-images/occulus.jpeg",
+  "name": "\"Occulus VR\"",
+  "Price": "249.99",
+  "Inventory": 999
+}
+
+]
