@@ -1,4 +1,4 @@
-fetch("https://raw.githubusercontent.com/svales92/Cloud-Systems-Computing/Devolop-/json%20example/products.json")
+fetch("https://raw.githubusercontent.com/svales92/Cloud-Systems-Computing/Devolop-/Project/products.json")
 .then(function(response){
   return response.json();
 })
@@ -17,8 +17,6 @@ fetch("https://raw.githubusercontent.com/svales92/Cloud-Systems-Computing/Devolo
 
     `;
     }
-
-
 
 
     placeholder.innerHTML= out;
