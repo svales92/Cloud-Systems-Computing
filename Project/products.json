@@ -1,11 +1,11 @@
-[{
+[
+  {
   "id": 1,
   "image":"console-images/xbox.jpeg",
   "name": "\"XBOX Series X\"",
   "Price": "449.99",
   "Inventory": 999
 },
-
 {
   "id": 2,
   "image":"console-images/playstation.jpeg",
@@ -13,7 +13,6 @@
   "Price": "549.99",
   "Inventory": 999
 },
-
 {
   "id": 3,
   "image":"console-images/switch.jpeg",
@@ -35,5 +34,7 @@
   "Price": "249.99",
   "Inventory": 999
 }
+
+
 
 ]
